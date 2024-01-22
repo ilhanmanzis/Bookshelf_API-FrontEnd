@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 0 20px 0;
+    width: 100%;
+    background-color: #094fa4;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+.kosong{
+    justify-content: center;
+    padding-top: 10px;
+}
+table{
+    margin-top: 10px;
+    border: 1px solid #8f969b;
+    border-collapse: collapse;
+    width: 100%;
+}
+.books{
+    text-align: center;
+    width: 100%;
+}
+.utama{
+    border: 2.5px solid #8f969b;
+}
+.books td{
+    padding: 10px 0;
+    border: 1px solid #8f969b;
+}
+
+.no{
+    width: 5%;
+}
+.name{
+    width: 30%;
+}
+.publis{
+    width: 40%;
+}
+.update{
+    width: 5%;
+}
+.hapus{
+    width: 5%;
+}
+.show{
+    width: 5%;
+}
+
+
+a{
+    text-decoration: none;
+}
+.img{
+    width: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+.cursor{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+/* tambah buku */
+.tambah-search{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 50px auto 10px auto;
+}
+
+.tambah{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005fd5;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    /* border: 1px solid black; */
+}
+
+.tambah a{
+    color: white;
+}
+
+.tambah:hover{
+    box-shadow: 0 7px 18px rgba(0,96,213,.44);
+}

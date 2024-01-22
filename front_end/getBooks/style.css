@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #094fa4;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.table2{
+    margin-top: 30px;
+}
+
+.tr td{
+    font-weight: bold;
+    padding: 15px 3px 15px 3px;
+    width: 200px;
+}
+
+.tr1 td{
+    
+    padding: 15px 3px 15px 3px;
+    width: 200px;
+}
+table, tr, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

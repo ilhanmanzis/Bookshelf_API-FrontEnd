@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="container">
+    <h1 class="judul">UPDATE BUKU</h1>
+    <form id="tambah-buku">
+        
+        <label for="nama">Judul</label><br>
+        <input type="text" name="name" id="nama" required><br>
+        <label for="year">year</label><br>
+        <input type="number" name="year" id="year" required><br>
+        <label for="author">author</label><br>
+        <input type="text" name="author" id="author" required><br>
+        <label for="summary">summary</label><br>
+        <input type="text" name="summary" id="summary" required><br>
+        <label for="publisher">publisher</label><br>
+        <input type="text" name="publisher" id="publisher" required><br>
+        <label for="pageCount">page count</label><br>
+        <input type="number" name="page" id="pageCount" required><br>
+        <label for="readPage">read Page</label><br>
+        <input type="number" name="readPage" id="readPage" required><br>
+        <label for="reading">reading</label><br>
+        <input type="number" name="reading" id="reading" required><br>
+        <p></p>
+        <button id="button">Submit</button>
+
+    </form>
+</section>
+<script src="../../node_modules/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
